@@ -12,61 +12,68 @@
 
 *MENTOR*: NEELA SANTOSH
 
-*DESCRIPTION*: 📌 Project Overview
+*DESCRIPTION*: Decision Tree Classification on Breast Cancer Dataset
+📌 Project Overview
 
-This project demonstrates the implementation, visualization, and analysis of a Decision Tree Classifier using the scikit-learn library. A synthetically generated, highly separable dataset is used to train the model, allowing it to achieve high classification accuracy (97–99%) while maintaining strong interpretability.
+This project implements a Decision Tree Classifier using the Breast Cancer Wisconsin dataset, a real-world medical dataset commonly used for machine learning research and education. The objective is to classify tumors as benign or malignant based on diagnostic features extracted from cell nuclei images.
 
-The project is designed to help understand how decision trees make decisions based on feature splits and how model performance can be evaluated using standard metrics.
+The project focuses on model interpretability, performance evaluation, and visualization of decision-making rules.
 
-🧠 Objective
+🎯 Objectives
 
-To build a Decision Tree classification model
+Build a Decision Tree classification model
 
-To visualize the learned decision rules
+Use a real and reliable medical dataset
 
-To evaluate the model using accuracy and a confusion matrix
+Visualize the decision tree structure
 
-To understand feature importance and model behavior
+Evaluate model performance using standard metrics
+
+Analyze important features influencing predictions
 
 📊 Dataset
 
-Generated using make_classification() from scikit-learn
+Name: Breast Cancer Wisconsin Dataset
 
-1200 samples with 6 features
+Source: UCI Machine Learning Repository / scikit-learn
 
-5 informative features and no redundant features
+Samples: 569
 
-High class separability for reliable performance
+Features: 30 numerical features
 
-Binary classification problem
+Target Classes:
+
+Malignant (0)
+
+Benign (1)
 
 ⚙️ Model Details
 
 Algorithm: Decision Tree Classifier
 
-Criterion: Gini Impurity
+Splitting Criterion: Gini Impurity
 
-Maximum Depth: 4
+Maximum Tree Depth: 4
 
 Train–Test Split: 75% / 25%
 
 📈 Results
 
-Accuracy: ~98%
+Accuracy: ~97–99%
 
-Minimal misclassification as shown in the confusion matrix
+High precision and recall for both classes
 
-Several leaf nodes achieve zero impurity, indicating perfect classification in those regions
+Minimal misclassification as shown by the confusion matrix
 
-Clear and interpretable decision boundaries
+Interpretable decision rules from tree visualization
 
 📉 Visualizations
 
-Decision Tree structure showing feature splits, impurity, and class predictions
+Decision Tree structure with feature splits and impurity values
 
-Confusion Matrix illustrating classification performance
+Confusion Matrix for performance evaluation
 
-Feature importance scores indicating influential features
+Feature importance ranking
 
 🛠️ Technologies Used
 
@@ -74,26 +81,10 @@ Python
 
 Scikit-learn
 
+Pandas
+
 NumPy
 
 Matplotlib
 
 Google Colab
-
-🚀 How to Run
-
-Open the notebook in Google Colab
-
-Run all cells sequentially
-
-View model accuracy, decision tree visualization, and confusion matrix
-
-📚 Learning Outcomes
-
-Understanding decision tree construction and splitting criteria
-
-Interpreting tree-based model decisions
-
-Evaluating classification models effectively
-
-Visualizing machine learning models for better explainability
