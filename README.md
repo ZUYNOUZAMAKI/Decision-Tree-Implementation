@@ -60,7 +60,7 @@ Train–Test Split: 75% / 25%
 
 📈 Results
 
-Accuracy: ~97–99%
+Accuracy: ~94–99%
 
 High precision and recall for both classes
 
